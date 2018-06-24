@@ -3,9 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Pecunia.Mobile.Views.MainPage"
              Title="{Binding Title}">
-
-    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <Label Text="Welcome to Xamarin Forms and Prism!" />
-    </StackLayout>
-
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>
